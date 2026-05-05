@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "lauti-launcher-web",
+  "builds": [
+    { "src": "api/*.js", "use": "@vercel/node" },
+    { "src": "**", "use": "@vercel/static" }
+  ]
+}
